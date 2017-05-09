@@ -1,0 +1,11 @@
+﻿<Window x:Class="W8_AugmentedReality.MainWindow"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Augmented Reality" Height="600" Width="800" Loaded="Window_Loaded">
+    <Grid Width="740" Margin="26,0,26,5">        
+        <Image Height="480" HorizontalAlignment="Left" Name="colorImg" Stretch="Fill" VerticalAlignment="Top" Width="720" Margin="0,10,0,0"/>
+        <Image Height="480" HorizontalAlignment="Left" Name="skeletonImg" Stretch="Fill" VerticalAlignment="Top" Width="720" Margin="30,10,-1,0" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,495,0,0" TextWrapping="Wrap" Text="You are a cow boy, raise up your right hand to call the sun." VerticalAlignment="Top" Width="490" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,518,0,0" TextWrapping="Wrap" Text="When it is high noon, kill all of them with gun. Right hand up to shoot." VerticalAlignment="Top" Width="710" />
+    </Grid>
+</Window>
